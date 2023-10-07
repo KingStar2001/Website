@@ -1,0 +1,123 @@
+/* Body */
+body {
+    font-family: sans-serif;
+    background-color: #0dbf6f; /* Light gray background */
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-image: url('https://t3.ftcdn.net/jpg/03/70/92/84/360_F_370928450_R6g8c0j5cey86PUXE32W7KMiqIUe1fOI.jpg');
+    background-size: 74%;
+    background-position: center center;
+  }
+  
+  
+
+  /* Body */
+body {
+    font-family: sans-serif;
+    background-color: #1b7087; /* Light gray background */
+    margin-left: 1000px;
+    padding: 0;
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Make sure the body takes up the full viewport height */
+  }
+  
+  /* Container */
+  .container {
+    width: 300px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #6d6317, #e3e3e3);
+ /* White container background */
+    padding: 20px; /* Add some padding for spacing inside the container */
+  }
+  
+  /* Rest of your existing CSS styles */
+  
+  
+
+  .create-account-link {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .create-account-link a {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  /* Container */
+  .container {
+    position: relative;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    width: 300px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #44444ae8, #e3e3e3);
+ /* White container background */
+  }
+  
+  /* Form group */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Label */
+  label {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333; /* Dark gray label text */
+  }
+  
+  /* Input */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #444; /* Dark gray input text */
+  }
+  
+  /* Submit button */
+  input[type="submit"] {
+    background-color: #007bff; /* Blue button background */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 15px;
+    background: linear-gradient(to right, #007bff, #0056b3); /* Gradient background */
+  }
+
+  /* Login box */
+.container {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Submit button */
+  input[type="submit"] {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  /* Submit button hover */
+  input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
